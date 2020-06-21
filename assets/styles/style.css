@@ -42,7 +42,7 @@ i,svg {
 .kick-track, .snare-track, .hihat-track {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 90%;
   justify-content: space-between;
   margin-top: 5rem;
 }
