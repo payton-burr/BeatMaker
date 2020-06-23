@@ -16,7 +16,9 @@ class DrumKit {
   repeat() {
     let step = this.index % 8;
     const activeBeat = document.querySelectorAll(`.b${step}`);
-    console.log(step);
+    activeBeat.forEach((beat) => {
+      beat.style.animation(`playTrack 0.3s alternate ease-in-out`);
+    });
     this.index++;
   }
 
