@@ -31,6 +31,18 @@ i,svg {
   background: #b8f2e6;
 }
 
+.kick-pad.active {
+  background: #fa968c;
+}
+
+.snare-pad.active {
+  background: #f8ebbf;
+}
+
+.hihat-pad.active {
+  background: #89e2d0;
+}
+
 .sequencer {
   display: flex;
   min-height: 100vh;
@@ -57,4 +69,33 @@ i,svg {
   align-items: center;
   flex: 1;
   margin: 0 2rem;
+}
+
+.controls button {
+  padding: 1rem;
+  border: none;
+  background-color: #5e6472;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.pad {
+  transition: all 0.5s ease;
+}
+
+.play {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background-color: #5e6472;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+select {
+  padding: 1rem;
+  font-size: 1rem;
 }
