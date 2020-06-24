@@ -143,8 +143,7 @@ class DrumKit {
     this.bpm = e.target.value;
     clearInterval(this.isPlaying);
     this.isPlaying = null;
-    const playBtn = document.querySelector('.play');
-    if (playBtn.classList.contains('active')) {
+    if (this.playButton.classList.contains('active')) {
       this.start();
     }
   }
