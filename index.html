@@ -84,6 +84,31 @@
       </div>
     </div>
 
+    <div class="clap-track">
+      <div class="controls">
+        <h1>Clap</h1>
+        <button data-track="3" class="mute clap-volume">
+          <i class="fas fa-volume-mute"></i>
+        </button>
+        <select name="clap-select" id="clap-select">
+          <option value="./assets/sounds/clap-808.wav">Classic Clap</option>
+          <option value="./assets/sounds/clap-analog.wav">Analog Clap</option>
+          <option value="./assets/sounds/clap-crushed.wav">Crushed Clap</option>
+        </select>
+      </div>
+
+      <div class="clap">
+        <div class="pad clap-pad b0"></div>
+        <div class="pad clap-pad b1"></div>
+        <div class="pad clap-pad b2"></div>
+        <div class="pad clap-pad b3"></div>
+        <div class="pad clap-pad b4"></div>
+        <div class="pad clap-pad b5"></div>
+        <div class="pad clap-pad b6"></div>
+        <div class="pad clap-pad b7"></div>
+      </div>
+    </div>
+
     <button class="play">Play</button>
 
     <div class="tempo">
@@ -97,6 +122,7 @@
   <audio class="kick-sound" src="assets/sounds/kick-classic.wav"></audio>
   <audio class="snare-sound" src="assets/sounds/snare-acoustic01.wav"></audio>
   <audio class="hihat-sound" src="assets/sounds/hihat-acoustic01.wav"></audio>
+  <audio class="clap-sound" src="assets/sounds/clap-808.wav"></audio>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo=" crossorigin="anonymous"></script>
   <script src="./app.js"></script>

@@ -12,7 +12,7 @@ i,svg {
   pointer-events: none;
 }
 
-.kick-pad, .snare-pad, .hihat-pad {
+.kick-pad, .snare-pad, .hihat-pad, .clap-pad {
   width: 5rem;
   height: 5rem;
   margin: 1rem 0.5rem;
@@ -31,6 +31,10 @@ i,svg {
   background: #b8f2e6;
 }
 
+.clap-pad {
+  background: #e08ce7;
+}
+
 .kick-pad.active {
   background: #fa968c;
 }
@@ -43,6 +47,10 @@ i,svg {
   background: #89e2d0;
 }
 
+.clap-pad.active {
+  background: #b646c0;
+}
+
 .sequencer {
   display: flex;
   min-height: 100vh;
@@ -51,14 +59,14 @@ i,svg {
   justify-content: center;
 }
 
-.kick-track, .snare-track, .hihat-track {
+.kick-track, .snare-track, .hihat-track, .clap-track {
   display: flex;
   align-items: center;
   width: 95%;
   justify-content: space-between;
 }
 
-.kick, .snare, .hihat {
+.kick, .snare, .hihat, .clap {
   display: flex;
 }
 
