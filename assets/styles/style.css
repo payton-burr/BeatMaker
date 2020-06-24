@@ -54,9 +54,8 @@ i,svg {
 .kick-track, .snare-track, .hihat-track {
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 95%;
   justify-content: space-between;
-  margin-top: 5rem;
 }
 
 .kick, .snare, .hihat {
