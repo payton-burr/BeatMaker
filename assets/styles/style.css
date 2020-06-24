@@ -64,7 +64,7 @@ i,svg {
 
 .controls {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex: 1;
   margin: 0 2rem;
@@ -108,14 +108,39 @@ select {
 }
 
 .tempo-slider {
-  padding: 0.2rem;
   -webkit-appearance: none;
+  padding: 0.2rem;
   margin: 1rem 0rem;
   width: 100%;
   position: relative;
   background-color: #b8b8b8;
   cursor: pointer;
   border-radius: 1rem;
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 100px;
+  background: #5e6472;
+}
+
+input[type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 100px;
+  background: #5e6472;
+}
+
+input[type=range]::-ms-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 100px;
+  background: #5e6472;
 }
 
 .tempo p {
