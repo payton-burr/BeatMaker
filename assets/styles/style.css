@@ -20,35 +20,35 @@ i,svg {
 }
 
 .kick-pad {
-  background: #ffa69e;
-}
-
-.snare-pad {
   background: #faf3dd;
 }
 
-.hihat-pad {
+.snare-pad {
   background: #b8f2e6;
 }
 
+.hihat-pad {
+  background: #aed9e0;
+}
+
 .clap-pad {
-  background: #e08ce7;
+  background: #5e6472;
 }
 
 .kick-pad.active {
-  background: #fa968c;
+  background: #e6dab3;
 }
 
 .snare-pad.active {
-  background: #f8ebbf;
+  background: #90e7d6;
 }
 
 .hihat-pad.active {
-  background: #89e2d0;
+  background: #74bdc9;
 }
 
 .clap-pad.active {
-  background: #b646c0;
+  background: #3e475c;
 }
 
 .sequencer {
